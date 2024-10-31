@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    }
+
+    .image-container {
+    max-width: 100%; /* Limits the container to the width of the viewport */
+    overflow: hidden; /* Hides any overflow */
+    }
+
+    img {
+    width: 100%; /* Makes the image take the full width of the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    max-width: 800px; /* Set a max-width based on the original size of your image */
+    }
+
+    </style>
 </head>
 <body>
-    <img src="https://www.rd.com/wp-content/uploads/2020/12/Smishing-example-1.jpg?resize=2048" alt="">
+    <div class="image-container">
+        <img src="https://www.rd.com/wp-content/uploads/2020/12/Smishing-example-1.jpg?resize=2048" alt="Description of image">
+    </div>
 </body>
 </html>
