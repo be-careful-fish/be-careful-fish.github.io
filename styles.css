@@ -62,3 +62,23 @@ h1 {
         font-size: 16px;
     }
 }
+
+/* Button styling */
+.button-container {
+    margin-top: 20px; /* Adds space above the button */
+}
+
+button {
+    padding: 12px 24px; /* Adjusted padding for a better look */
+    font-size: 18px; /* Font size that matches the user info */
+    background-color: #00796b; /* Same color as the heading */
+    color: white; /* White text for contrast */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker shade for hover effect */
+}
